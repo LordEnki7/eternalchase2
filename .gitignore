@@ -1,0 +1,14 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+*.zip
+logs/
+.env
+.env.local
+.env.production
+
+# Large audiobook files - mount as Docker volume instead
+attached_assets/
